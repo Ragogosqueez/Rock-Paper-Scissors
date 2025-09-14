@@ -70,7 +70,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(1)
     basic.showIcon(IconNames.Happy)
     basic.pause(500)
-    basic.showString("  Player 1")
+    basic.showString("  P1")
     if (Cha == 0) {
         basic.showIcon(IconNames.SmallSquare)
     } else if (Cha == 1) {
@@ -93,7 +93,7 @@ input.onButtonPressed(Button.B, function () {
         `)
     music.play(music.createSoundExpression(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
     basic.pause(500)
-    basic.showString("Player 2")
+    basic.showString("P2")
     if (Num == 0) {
         basic.showIcon(IconNames.SmallSquare)
     } else if (Num == 1) {
