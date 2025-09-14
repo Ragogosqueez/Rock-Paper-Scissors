@@ -115,10 +115,10 @@ input.onButtonPressed(Button.B, function () {
         `)
     basic.pause(2000)
     if (Num == 0 && Char == 2 || (Num == 1 && Char == 0 || Num == 2 && Char == 1)) {
-        basic.showString("Player 2 Wins!!!")
+        basic.showString("P2 Wins!!!")
         basic.showIcon(IconNames.Yes)
     } else if (Char == 0 && Num == 2 || (Char == 1 && Num == 0 || Char == 2 && Num == 1)) {
-        basic.showString("Player 1 Wins!!!")
+        basic.showString("P1 Wins!!!")
         basic.showIcon(IconNames.Yes)
     } else if (Char == 3 || Num == 3) {
         basic.showString("Invalid")
